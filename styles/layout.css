@@ -1,0 +1,24 @@
+@media screen and ( min-width: 799 px) {
+
+section > *{
+display: inline-block;
+align-items: center;
+color: whitesmoke;
+background: grey;
+border: 2px #000000;
+}
+
+}
+/* end of mobile */
+/* start of desktop */
+@media screen and ( min-width: 800px) {
+
+section > *{
+display: inline-block;
+align-items: center;
+color: whitesmoke;
+background: grey;
+border: 2px #000000;
+}
+
+}

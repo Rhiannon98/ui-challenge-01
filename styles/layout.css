@@ -1,24 +1,58 @@
-@media screen and ( min-width: 799 px) {
+/* begin mobile */
+@media screen and (min-width: 769px) {
+  * {
+    margin: 2em;
+    background: rgba(128, 128, 128, 0.493);
+  }
 
-section > *{
-display: inline-block;
-align-items: center;
-color: whitesmoke;
-background: grey;
-border: 2px #000000;
-}
+  body {
+    position: relative;
+    background: grey;
+    width: 480px;
+  }
+
+  header section #item-b #item-c #item-d footer{
+    width: 480px;
+  }
+
+  .leading {
+    font-size: 2em;
+  }
+
+  .cards {
+  color: whitesmoke;
+  background: #000000;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+  grid-gap: 30px;
+  }
+
+  #item-a {
+    height: 75px;
+  }
 
 }
-/* end of mobile */
-/* start of desktop */
-@media screen and ( min-width: 800px) {
+/* end mobile */
+/* begin desktop */
+@media screen and (max-width: 768px) {
+  * {
+    margin: auto;
+    background: rgba(128, 128, 128, 0.493);
+  }
+  .leading p {
+  max-width: 900px;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  }
 
-section > *{
-display: inline-block;
-align-items: center;
-color: whitesmoke;
-background: grey;
-border: 2px #000000;
-}
+  .cards {
+  color: whitesmoke;
+  background: #000000;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+  float: left;
+  }
 
 }
+/* end desktop */

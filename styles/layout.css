@@ -23,7 +23,7 @@ section.cols-2 div {
   width: 50%;
   height: 250px;
   float: left;
-  background: lightslategrey;
+  background: url("http://placezombie.com/g/240x250");
   border: 1px solid black;
 }
 
@@ -32,7 +32,9 @@ footer.ending {
   background: url("http://placezombie.com/g/480x80");  
   border: 1px solid black;
 }
+/* end of mobile orientated code */
 
+/* start of desktop view */
 @media screen and (min-width: 769px) {
   header {
     height: 100px;
@@ -48,10 +50,10 @@ footer.ending {
   }
 
   section#item-b {
-    height: 200;
     width: 600;
+    height: 200;
     float: left;
-    background: url("http://placezombie.com/g/200x600");
+    background: url("http://placezombie.com/g/600x200");
 
 }
 
@@ -71,8 +73,8 @@ footer.ending {
   }
 
   footer.ending {
-    height: 150px;
     width: 760px;
+    height: 150px;
     background: url("http://placezombie.com/g/760x150");    border: 1px solid black;
   }
 }

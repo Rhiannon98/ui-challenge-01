@@ -1,31 +1,29 @@
-html > *{
-color: whitesmoke;
+* {
+  box-sizing: border-box;
 }
 
-/* Generic styles ----------------------------------------------*/
 body {
-  font-family: sans-serif;
-  position: relative;
+  background: lightblue;
+  width: 480px;
+  margin: 0 auto;
 }
 
-header {
-  padding: 10px;
-  font-size: 2em;
-  color: white;
-  background-color: #333;
-  position: relative;
+main {
+  max-width: 768px;
 }
 
-img {
-  max-width: 100%;
-}
+@media screen and (min-width: 769px) {
+  * {
+    box-sizing: border-box;
+  }
 
+  body {
+    background: lightblue;
+    width: 960px;
+    margin: 0 auto;
+  }
 
-a, a:link, a:active {
-  text-decoration: none;
-  color: #777;
-}
-
-a:hover, a:focus {
-  color: #29506D;
+  main {
+    max-width: 960px;
+  }
 }

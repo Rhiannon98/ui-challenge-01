@@ -1,5 +1,6 @@
 header {
   height: 75px;
+  color: white;  
   background: url("http://placezombie.com/g/200x600");
   border: 1px solid black;
 }
@@ -7,21 +8,25 @@ header {
 main section {
   width: 100%;
   overflow: auto; 
+  color: white;
   background: lightgray;
   border: 1px solid black;
 }
 
 section#item-b {
   height: 150px;
+  color: white;
 }
 
 section#item-c, section#item-d {
   height: 125px;
+  color: white;
 }
 
 section.cols-2 div {
   width: 50%;
   height: 250px;
+  color: white;
   float: left;
   background: url("http://placezombie.com/g/240x250");
   border: 1px solid black;
@@ -43,29 +48,31 @@ footer.ending {
   }
 
   main section {
-    width: 100%;
     overflow: auto; 
     background: lightgray;
     border: 1px solid black;
   }
 
-  section#item-b {
-    width: 600;
-    height: 200;
+  main section#item-b {
+    width: 200;
+    height: 600;
+    color: white;
     float: left;
-    background: url("http://placezombie.com/g/600x200");
+    background: url("http://placezombie.com/g/200x600");
 
 }
 
   section#item-c, section#item-d {
     width: 380px;
-    height: 200px;
+    height: 200px;    
+    color: white;
     background: url("http://placezombie.com/g/380x200");
   }
 
   section.cols-4 div {
     width: 190px;
     height: 250px;
+    color: white;
     float: left;
     background: url("http://placezombie.com/g/190x250");
     border: 1px solid black;
@@ -75,6 +82,7 @@ footer.ending {
   footer.ending {
     width: 760px;
     height: 150px;
+    color: white;
     background: url("http://placezombie.com/g/760x150");    border: 1px solid black;
   }
 }

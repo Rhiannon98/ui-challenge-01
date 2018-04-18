@@ -1,6 +1,5 @@
 header {
   height: 75px;
-  color: white;  
   background: url("http://placezombie.com/g/200x600");
   border: 1px solid black;
 }
@@ -8,27 +7,23 @@ header {
 main section {
   width: 100%;
   overflow: auto; 
-  color: white;
   background: lightgray;
   border: 1px solid black;
 }
 
 section#item-b {
   height: 150px;
-  color: white;
 }
 
 section#item-c, section#item-d {
   height: 125px;
-  color: white;
 }
 
 section.cols-2 div {
   width: 50%;
   height: 250px;
-  color: white;
   float: left;
-  background: url("http://placezombie.com/g/240x250");
+  background: lightslategrey;
   border: 1px solid black;
 }
 
@@ -37,9 +32,7 @@ footer.ending {
   background: url("http://placezombie.com/g/480x80");  
   border: 1px solid black;
 }
-/* end of mobile orientated code */
 
-/* start of desktop view */
 @media screen and (min-width: 769px) {
   header {
     height: 100px;
@@ -48,15 +41,15 @@ footer.ending {
   }
 
   main section {
+    width: 100%;
     overflow: auto; 
     background: lightgray;
     border: 1px solid black;
   }
 
-  main section#item-b {
-    width: 200;
-    height: 600;
-    color: white;
+  section#item-b {
+    width: 200px;
+    height: 600px;
     float: left;
     background: url("http://placezombie.com/g/200x600");
 
@@ -64,15 +57,13 @@ footer.ending {
 
   section#item-c, section#item-d {
     width: 380px;
-    height: 200px;    
-    color: white;
+    height: 200px;
     background: url("http://placezombie.com/g/380x200");
   }
 
-  section.cols-4 div {
+  section.cols-4 > * > div {
     width: 190px;
     height: 250px;
-    color: white;
     float: left;
     background: url("http://placezombie.com/g/190x250");
     border: 1px solid black;
@@ -80,9 +71,9 @@ footer.ending {
   }
 
   footer.ending {
-    width: 760px;
     height: 150px;
-    color: white;
+    width: 760px;
+    float: left;
     background: url("http://placezombie.com/g/760x150");    border: 1px solid black;
   }
 }

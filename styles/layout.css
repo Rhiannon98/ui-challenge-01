@@ -74,6 +74,7 @@ footer.ending {
     height: 150px;
     width: 760px;
     float: left;
-    background: url("http://placezombie.com/g/760x150");    border: 1px solid black;
+    background: url("http://placezombie.com/g/760x150");    
+    border: 1px solid black;
   }
 }
